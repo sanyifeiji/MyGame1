@@ -163,10 +163,10 @@ window.onload=function(){
             bt7.innerHTML ="得分"+score;
              arr.sort(randomsort);
              ii=Math.floor(Math.random()*4);
-            sp0.innerHTML=nlist[iii][arr[0]]+ii+"  "+arr[0];
-             sp1.innerHTML=nlist[iii][arr[1]]+arr[1];
-             sp2.innerHTML=nlist[iii][arr[2]]+arr[2];
-             sp3.innerHTML=nlist[iii][arr[3]]+arr[3];
+            sp0.innerHTML=nlist[iii][arr[0]];
+             sp1.innerHTML=nlist[iii][arr[1]];
+             sp2.innerHTML=nlist[iii][arr[2]];
+             sp3.innerHTML=nlist[iii][arr[3]];
             
 
             btn11.disabled=false;
