@@ -156,6 +156,7 @@ window.onload=function(){
             	{iii=0;
             		alert("最终得分为："+score);
             		score=0;
+                                 location.reload();
             	}
             bt.style.backgroundColor=clist[iii][ii];
             bt6.innerHTML ="这是第"+(iii+1)+"题";
