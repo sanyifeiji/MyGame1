@@ -153,8 +153,8 @@ window.onload=function(){
 
             iii++;
             if (iii>=clist.length)
-            	{iii=0;
-            		alert("最终得分为："+score);
+            	{iii=-100000;
+            		alert("最终得分为："+score+"，请刷新页面重玩");
             		score=0;
                                  location.reload();
             	}
